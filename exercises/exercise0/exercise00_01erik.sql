@@ -136,6 +136,39 @@ LIMIT 10;
         DESC
         LIMIT 10;
 
+-- 1
+
+--A) 0.5 credits/day X 30 days = 15 credits
+
+--B) 
+    -- 2 X 10 = 20
+    -- 1.5 X 10 = 15
+    -- 1 X 10 = 10
+
+    -- 20 + 15 + 10 = 45
+
+    -- Answer: The cost will be 45 Credits for 30 days
+
+-- C)
+
+    --Warehouse A XS: 1 x 10 x 30 = 300    
+    -- Warehouse B S: 2 x 10 x 30 = 120
+    -- Warehouse C M: 4 x 10 x 30 = 120
+
+    -- 300 + 120 + 120 = 540
+    -- Answer: My warehouses will spend 540 Studycredits along the month 
+
+-- D)
+
+    -- Day 0-10: 1 x 10 x 2 x 10 = 200
+    -- Day 10-20: 1 x 10 x 3 x 10 = 300
+    -- Day 10-20: 1 x 10 x 4 x 10 = 400
+
+    -- 200 + 300 + 400 = 900
+    -- Answer: The monthly are 900 credits 
+
+
+
 
 
 
