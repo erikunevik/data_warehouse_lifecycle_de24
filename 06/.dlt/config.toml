@@ -1,0 +1,16 @@
+# put your configuration values here
+
+[runtime]
+log_level="WARNING"  # the system log level of dlt
+# use the dlthub_telemetry setting to enable/disable anonymous usage data reporting, see https://dlthub.com/docs/reference/telemetry
+dlthub_telemetry = true
+
+# [movies.destination.snowflake.credentials]
+# username = "extract_loader"
+# password = "KJ8vemQ3bk!!!!"
+# host     = "ma68735.west-europe.azure"  # se punkt 2
+# database = "MOVIES"       # en verklig DB i Snowflake
+# warehouse = "DEV_WH"
+# role      = "MOVIES_DLT_ROLE"
+
+
