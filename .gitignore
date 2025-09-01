@@ -4,6 +4,10 @@
 
 venv/
 
+# Warehouse passwords
+
+setup_user.sql
+
 
 
 
