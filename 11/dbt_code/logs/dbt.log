@@ -1824,3 +1824,1197 @@ FROM staging_data
 [0m18:33:24.978364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C4059924B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C405DE6AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C405963800>]}
 [0m18:33:24.978364 [debug] [MainThread]: Flushing usage events
 [0m18:33:25.900927 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:32:55.939846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883BADA270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018839974A70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018839871400>]}
+
+
+============================== 13:32:55.943844 | f0409865-53f8-4ff1-a022-c1551a32c397 ==============================
+[0m13:32:55.943844 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:32:55.944850 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt ', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': 'c:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\11\\dbt_code\\logs', 'profiles_dir': 'C:\\Users\\eriku\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m13:32:56.092262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f0409865-53f8-4ff1-a022-c1551a32c397', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883CB4B260>]}
+[0m13:32:56.215787 [debug] [MainThread]: Set downloads directory='C:\Users\eriku\AppData\Local\Temp\dbt-downloads-iyaodyy9'
+[0m13:32:56.216786 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m13:32:56.343012 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m13:32:56.345028 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m13:32:56.388194 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m13:32:56.393192 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m13:32:57.003930 [info ] [MainThread]: Installed from version 1.2.0
+[0m13:32:57.004929 [info ] [MainThread]: Updated version available: 1.3.0
+[0m13:32:57.005964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'f0409865-53f8-4ff1-a022-c1551a32c397', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883DD08D40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883DDABE30>]}
+[0m13:32:57.005964 [info ] [MainThread]: 
+[0m13:32:57.006929 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m13:32:57.008933 [debug] [MainThread]: Command `cli deps` succeeded at 13:32:57.008933 after 1.21 seconds
+[0m13:32:57.009947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883C4E77A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001883BE432F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018836487C20>]}
+[0m13:32:57.009947 [debug] [MainThread]: Flushing usage events
+[0m13:32:57.743093 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:35:03.011490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36298BDA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36021CE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E360309CA0>]}
+
+
+============================== 13:35:03.017213 | f11cd6c2-7eb0-47b6-83e5-9644eb1f4cb5 ==============================
+[0m13:35:03.017213 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:35:03.017635 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\eriku\\.dbt', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'empty': 'False', 'quiet': 'False', 'indirect_selection': 'eager', 'log_path': 'C:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\11\\dbt_code\\logs', 'write_json': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m13:35:06.800108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f11cd6c2-7eb0-47b6-83e5-9644eb1f4cb5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E372F97BC0>]}
+[0m13:35:06.871071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f11cd6c2-7eb0-47b6-83e5-9644eb1f4cb5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E3754C2DB0>]}
+[0m13:35:06.872234 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m13:35:07.409797 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m13:35:07.545457 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:35:07.546467 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:35:07.551464 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_code.fct
+- models.dbt_code.dim
+- models.dbt_code.mart
+[0m13:35:07.581134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f11cd6c2-7eb0-47b6-83e5-9644eb1f4cb5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E37579BB30>]}
+[0m13:35:07.649353 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m13:35:07.696330 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m13:35:07.740855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f11cd6c2-7eb0-47b6-83e5-9644eb1f4cb5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E375B8C860>]}
+[0m13:35:07.741856 [info ] [MainThread]: Found 4 models, 1 source, 595 macros
+[0m13:35:07.741856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f11cd6c2-7eb0-47b6-83e5-9644eb1f4cb5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E375A2FBF0>]}
+[0m13:35:07.745018 [info ] [MainThread]: 
+[0m13:35:07.745018 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:35:07.746015 [info ] [MainThread]: 
+[0m13:35:07.746015 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:35:07.750015 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads'
+[0m13:35:12.255231 [debug] [ThreadPool]: Using snowflake connection "list_job_ads"
+[0m13:35:12.255231 [debug] [ThreadPool]: On list_job_ads: show terse schemas in database job_ads
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads"} */
+[0m13:35:12.256231 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:35:16.029455 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.774 seconds
+[0m13:35:16.033563 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads_warehouse'
+[0m13:35:16.045535 [debug] [ThreadPool]: Using snowflake connection "list_job_ads_warehouse"
+[0m13:35:16.045535 [debug] [ThreadPool]: On list_job_ads_warehouse: show objects in job_ads.warehouse
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads_warehouse"} */;
+[0m13:35:16.046788 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:35:18.854028 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2.807 seconds
+[0m13:35:18.858556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f11cd6c2-7eb0-47b6-83e5-9644eb1f4cb5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E360534800>]}
+[0m13:35:18.867719 [debug] [Thread-1 (]: Began running node model.dbt_code.original_headline
+[0m13:35:18.868807 [info ] [Thread-1 (]: 1 of 2 START sql table model warehouse.original_headline ....................... [RUN]
+[0m13:35:18.868807 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_code.original_headline'
+[0m13:35:18.870145 [debug] [Thread-1 (]: Began compiling node model.dbt_code.original_headline
+[0m13:35:18.877655 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.original_headline"
+[0m13:35:18.878656 [debug] [Thread-1 (]: Began executing node model.dbt_code.original_headline
+[0m13:35:18.912960 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.original_headline"
+[0m13:35:18.913975 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.original_headline"
+[0m13:35:18.914973 [debug] [Thread-1 (]: On model.dbt_code.original_headline: create or replace transient table job_ads.warehouse.original_headline
+    
+    
+    
+    as (SELECT 
+    headline
+FROM job_ads.staging.data_field_job_ads
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.original_headline"} */;
+[0m13:35:18.914973 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:35:26.605335 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 7.690 seconds
+[0m13:35:26.631377 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f11cd6c2-7eb0-47b6-83e5-9644eb1f4cb5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E36044A000>]}
+[0m13:35:26.632382 [info ] [Thread-1 (]: 1 of 2 OK created sql table model warehouse.original_headline .................. [[32mSUCCESS 1[0m in 7.76s]
+[0m13:35:26.632382 [debug] [Thread-1 (]: Finished running node model.dbt_code.original_headline
+[0m13:35:26.633382 [debug] [Thread-1 (]: Began running node model.dbt_code.src_employer
+[0m13:35:26.633382 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.original_headline, now model.dbt_code.src_employer)
+[0m13:35:26.634382 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_employer
+[0m13:35:26.636382 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_employer"
+[0m13:35:26.637382 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_employer
+[0m13:35:26.638382 [debug] [Thread-1 (]: Began running node model.dbt_code.src_job_ads
+[0m13:35:26.638382 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_employer, now model.dbt_code.src_job_ads)
+[0m13:35:26.638382 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_job_ads
+[0m13:35:26.641382 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_job_ads"
+[0m13:35:26.642383 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_job_ads
+[0m13:35:26.642383 [debug] [Thread-1 (]: Began running node model.dbt_code.updated_headline_macro
+[0m13:35:26.642383 [info ] [Thread-1 (]: 2 of 2 START sql table model warehouse.updated_headline_macro .................. [RUN]
+[0m13:35:26.643382 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_job_ads, now model.dbt_code.updated_headline_macro)
+[0m13:35:26.643382 [debug] [Thread-1 (]: Began compiling node model.dbt_code.updated_headline_macro
+[0m13:35:26.650740 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.updated_headline_macro"
+[0m13:35:26.651943 [debug] [Thread-1 (]: Began executing node model.dbt_code.updated_headline_macro
+[0m13:35:26.654874 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.updated_headline_macro"
+[0m13:35:26.655872 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.updated_headline_macro"
+[0m13:35:26.657166 [debug] [Thread-1 (]: On model.dbt_code.updated_headline_macro: create or replace transient table job_ads.warehouse.updated_headline_macro
+    
+    
+    
+    as (WITH staging_data AS (
+    SELECT 
+        *
+    FROM job_ads.warehouse.original_headline)
+
+SELECT 
+    
+    CASE 
+        WHEN headline = 'Data Engineer' THEN 'Junior Data Engineer'
+        ELSE headline
+    END
+ AS updated_job_title
+FROM staging_data
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.updated_headline_macro"} */;
+[0m13:35:29.709114 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 3.051 seconds
+[0m13:35:29.712106 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f11cd6c2-7eb0-47b6-83e5-9644eb1f4cb5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E376C4ED80>]}
+[0m13:35:29.712106 [info ] [Thread-1 (]: 2 of 2 OK created sql table model warehouse.updated_headline_macro ............. [[32mSUCCESS 1[0m in 3.07s]
+[0m13:35:29.714107 [debug] [Thread-1 (]: Finished running node model.dbt_code.updated_headline_macro
+[0m13:35:29.715105 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:35:29.716106 [debug] [MainThread]: Connection 'list_job_ads' was left open.
+[0m13:35:29.716106 [debug] [MainThread]: On list_job_ads: Close
+[0m13:35:29.862265 [debug] [MainThread]: Connection 'list_job_ads_warehouse' was left open.
+[0m13:35:29.863344 [debug] [MainThread]: On list_job_ads_warehouse: Close
+[0m13:35:30.005021 [debug] [MainThread]: Connection 'model.dbt_code.updated_headline_macro' was left open.
+[0m13:35:30.006098 [debug] [MainThread]: On model.dbt_code.updated_headline_macro: Close
+[0m13:35:30.132603 [info ] [MainThread]: 
+[0m13:35:30.134518 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 22.39 seconds (22.39s).
+[0m13:35:30.137609 [debug] [MainThread]: Command end result
+[0m13:35:30.167154 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m13:35:30.170324 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m13:35:30.176777 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\run_results.json
+[0m13:35:30.177795 [info ] [MainThread]: 
+[0m13:35:30.180825 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:35:30.181784 [info ] [MainThread]: 
+[0m13:35:30.182788 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m13:35:30.183860 [debug] [MainThread]: Command `dbt run` succeeded at 13:35:30.183860 after 27.41 seconds
+[0m13:35:30.184960 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E363402330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E363451730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E363452930>]}
+[0m13:35:30.184960 [debug] [MainThread]: Flushing usage events
+[0m13:35:31.129046 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:50:28.785847 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B77A4FF20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B75569CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B782F0200>]}
+
+
+============================== 13:50:28.792522 | 03b13ae2-1299-43a9-b64e-2777a1174061 ==============================
+[0m13:50:28.792522 [info ] [MainThread]: Running with dbt=1.10.10
+[0m13:50:28.793540 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run --select src_employer', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'False', 'printer_width': '80', 'quiet': 'False', 'log_path': 'C:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\11\\dbt_code\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\eriku\\.dbt', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m13:50:30.263919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '03b13ae2-1299-43a9-b64e-2777a1174061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B0A744740>]}
+[0m13:50:30.337177 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '03b13ae2-1299-43a9-b64e-2777a1174061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B77583DA0>]}
+[0m13:50:30.339101 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m13:50:30.803094 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m13:50:30.969443 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:50:30.969443 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:50:30.974633 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_code.dim
+- models.dbt_code.mart
+- models.dbt_code.fct
+[0m13:50:31.005637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '03b13ae2-1299-43a9-b64e-2777a1174061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B797ED220>]}
+[0m13:50:31.072253 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m13:50:31.076080 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m13:50:31.116853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '03b13ae2-1299-43a9-b64e-2777a1174061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B0A936210>]}
+[0m13:50:31.116853 [info ] [MainThread]: Found 4 models, 1 source, 595 macros
+[0m13:50:31.117856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '03b13ae2-1299-43a9-b64e-2777a1174061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B0A5E2BA0>]}
+[0m13:50:31.118855 [info ] [MainThread]: 
+[0m13:50:31.120111 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:50:31.121022 [info ] [MainThread]: 
+[0m13:50:31.121022 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m13:50:31.126026 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads_warehouse'
+[0m13:50:31.266714 [debug] [ThreadPool]: Using snowflake connection "list_job_ads_warehouse"
+[0m13:50:31.267711 [debug] [ThreadPool]: On list_job_ads_warehouse: show objects in job_ads.warehouse
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads_warehouse"} */;
+[0m13:50:31.267711 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:50:34.519839 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 3.252 seconds
+[0m13:50:34.523964 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '03b13ae2-1299-43a9-b64e-2777a1174061', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B0AC37B60>]}
+[0m13:50:34.531849 [debug] [Thread-1 (]: Began running node model.dbt_code.src_employer
+[0m13:50:34.531849 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_code.src_employer'
+[0m13:50:34.532933 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_employer
+[0m13:50:34.660954 [debug] [Thread-1 (]: Compilation Error in model src_employer (models\src\src_employer.sql)
+  'SOUCE' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+[0m13:50:34.662362 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_employer
+[0m13:50:34.663088 [debug] [Thread-4 (]: Marking all children of 'model.dbt_code.src_employer' to be skipped because of status 'error'.  Reason: Compilation Error in model src_employer (models\src\src_employer.sql)
+  'SOUCE' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps"..
+[0m13:50:34.664091 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:50:34.665102 [debug] [MainThread]: Connection 'list_job_ads_warehouse' was left open.
+[0m13:50:34.665102 [debug] [MainThread]: On list_job_ads_warehouse: Close
+[0m13:50:34.850427 [debug] [MainThread]: Connection 'model.dbt_code.src_employer' was properly closed.
+[0m13:50:34.851729 [info ] [MainThread]: 
+[0m13:50:34.853800 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 3.73 seconds (3.73s).
+[0m13:50:34.855740 [debug] [MainThread]: Command end result
+[0m13:50:34.884874 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m13:50:34.889209 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m13:50:34.894118 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\run_results.json
+[0m13:50:34.895116 [debug] [MainThread]: Command `dbt run` succeeded at 13:50:34.895116 after 6.37 seconds
+[0m13:50:34.895116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B77BEBD40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B77ADC4D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023B77B3ACF0>]}
+[0m13:50:34.895116 [debug] [MainThread]: Flushing usage events
+[0m13:50:35.948671 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:58:27.178647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C9878D7AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C98AA6AC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C98A35D8B0>]}
+
+
+============================== 14:58:27.186201 | 69435b9c-46ae-4d69-a2bb-a8b5ffd628c4 ==============================
+[0m14:58:27.186201 [info ] [MainThread]: Running with dbt=1.10.10
+[0m14:58:27.187203 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\eriku\\.dbt', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'log_path': 'C:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\11\\dbt_code\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m14:58:28.817071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '69435b9c-46ae-4d69-a2bb-a8b5ffd628c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99CD70F20>]}
+[0m14:58:28.888990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '69435b9c-46ae-4d69-a2bb-a8b5ffd628c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C98A07BF20>]}
+[0m14:58:28.891028 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m14:58:29.213507 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m14:58:29.446877 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:58:29.446877 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:58:29.450958 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.dbt_code.fct
+- models.dbt_code.dim
+- models.dbt_code.mart
+[0m14:58:29.476443 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '69435b9c-46ae-4d69-a2bb-a8b5ffd628c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C989ED6330>]}
+[0m14:58:29.547987 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m14:58:29.551023 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m14:58:29.592874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '69435b9c-46ae-4d69-a2bb-a8b5ffd628c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99D2CDAC0>]}
+[0m14:58:29.593871 [info ] [MainThread]: Found 6 models, 1 source, 595 macros
+[0m14:58:29.595067 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '69435b9c-46ae-4d69-a2bb-a8b5ffd628c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C9885BC9B0>]}
+[0m14:58:29.596067 [info ] [MainThread]: 
+[0m14:58:29.597065 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:58:29.597065 [info ] [MainThread]: 
+[0m14:58:29.598065 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m14:58:29.601159 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads'
+[0m14:58:29.829211 [debug] [ThreadPool]: Using snowflake connection "list_job_ads"
+[0m14:58:29.829211 [debug] [ThreadPool]: On list_job_ads: show terse schemas in database job_ads
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads"} */
+[0m14:58:29.829211 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:58:32.837115 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.007 seconds
+[0m14:58:32.841172 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads_warehouse'
+[0m14:58:32.853560 [debug] [ThreadPool]: Using snowflake connection "list_job_ads_warehouse"
+[0m14:58:32.853560 [debug] [ThreadPool]: On list_job_ads_warehouse: show objects in job_ads.warehouse
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads_warehouse"} */;
+[0m14:58:32.854560 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:58:35.468997 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2.615 seconds
+[0m14:58:35.473114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '69435b9c-46ae-4d69-a2bb-a8b5ffd628c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99CC46F30>]}
+[0m14:58:35.484456 [debug] [Thread-1 (]: Began running node model.dbt_code.original_headline
+[0m14:58:35.485454 [info ] [Thread-1 (]: 1 of 2 START sql table model warehouse.original_headline ....................... [RUN]
+[0m14:58:35.487457 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_code.original_headline'
+[0m14:58:35.488543 [debug] [Thread-1 (]: Began compiling node model.dbt_code.original_headline
+[0m14:58:35.495900 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.original_headline"
+[0m14:58:35.496898 [debug] [Thread-1 (]: Began executing node model.dbt_code.original_headline
+[0m14:58:35.563977 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.original_headline"
+[0m14:58:35.565976 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.original_headline"
+[0m14:58:35.567996 [debug] [Thread-1 (]: On model.dbt_code.original_headline: create or replace transient table job_ads.warehouse.original_headline
+    
+    
+    
+    as (SELECT 
+    headline
+FROM job_ads.staging.data_field_job_ads
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.original_headline"} */;
+[0m14:58:35.567996 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:58:39.826780 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 4.258 seconds
+[0m14:58:39.849827 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '69435b9c-46ae-4d69-a2bb-a8b5ffd628c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C987B39F40>]}
+[0m14:58:39.850834 [info ] [Thread-1 (]: 1 of 2 OK created sql table model warehouse.original_headline .................. [[32mSUCCESS 1[0m in 4.36s]
+[0m14:58:39.853018 [debug] [Thread-1 (]: Finished running node model.dbt_code.original_headline
+[0m14:58:39.853018 [debug] [Thread-1 (]: Began running node model.dbt_code.src_employer
+[0m14:58:39.853018 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.original_headline, now model.dbt_code.src_employer)
+[0m14:58:39.853998 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_employer
+[0m14:58:39.857012 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_employer"
+[0m14:58:39.858014 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_employer
+[0m14:58:39.858916 [debug] [Thread-1 (]: Began running node model.dbt_code.src_job_ads
+[0m14:58:39.858916 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_employer, now model.dbt_code.src_job_ads)
+[0m14:58:39.859912 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_job_ads
+[0m14:58:39.861910 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_job_ads"
+[0m14:58:39.864553 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_job_ads
+[0m14:58:39.864553 [debug] [Thread-1 (]: Began running node model.dbt_code.src_job_details
+[0m14:58:39.864553 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_job_ads, now model.dbt_code.src_job_details)
+[0m14:58:39.864553 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_job_details
+[0m14:58:39.867632 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_job_details"
+[0m14:58:39.868551 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_job_details
+[0m14:58:39.868551 [debug] [Thread-1 (]: Began running node model.dbt_code.src_occupation
+[0m14:58:39.869644 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_job_details, now model.dbt_code.src_occupation)
+[0m14:58:39.869644 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_occupation
+[0m14:58:39.873763 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_occupation"
+[0m14:58:39.874866 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_occupation
+[0m14:58:39.876380 [debug] [Thread-1 (]: Began running node model.dbt_code.updated_headline_macro
+[0m14:58:39.876380 [info ] [Thread-1 (]: 2 of 2 START sql table model warehouse.updated_headline_macro .................. [RUN]
+[0m14:58:39.877388 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_occupation, now model.dbt_code.updated_headline_macro)
+[0m14:58:39.877388 [debug] [Thread-1 (]: Began compiling node model.dbt_code.updated_headline_macro
+[0m14:58:39.886388 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.updated_headline_macro"
+[0m14:58:39.887903 [debug] [Thread-1 (]: Began executing node model.dbt_code.updated_headline_macro
+[0m14:58:39.890909 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.updated_headline_macro"
+[0m14:58:39.891908 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.updated_headline_macro"
+[0m14:58:39.892907 [debug] [Thread-1 (]: On model.dbt_code.updated_headline_macro: create or replace transient table job_ads.warehouse.updated_headline_macro
+    
+    
+    
+    as (WITH staging_data AS (
+    SELECT 
+        *
+    FROM job_ads.warehouse.original_headline)
+
+SELECT 
+    
+    CASE 
+        WHEN headline = 'Data Engineer' THEN 'Junior Data Engineer'
+        ELSE headline
+    END
+ AS updated_job_title
+FROM staging_data
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.updated_headline_macro"} */;
+[0m14:58:41.736260 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.844 seconds
+[0m14:58:41.740251 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '69435b9c-46ae-4d69-a2bb-a8b5ffd628c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C99E411B20>]}
+[0m14:58:41.740251 [info ] [Thread-1 (]: 2 of 2 OK created sql table model warehouse.updated_headline_macro ............. [[32mSUCCESS 1[0m in 1.86s]
+[0m14:58:41.741252 [debug] [Thread-1 (]: Finished running node model.dbt_code.updated_headline_macro
+[0m14:58:41.743247 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:58:41.743247 [debug] [MainThread]: Connection 'list_job_ads' was left open.
+[0m14:58:41.743247 [debug] [MainThread]: On list_job_ads: Close
+[0m14:58:41.867175 [debug] [MainThread]: Connection 'list_job_ads_warehouse' was left open.
+[0m14:58:41.868171 [debug] [MainThread]: On list_job_ads_warehouse: Close
+[0m14:58:41.976443 [debug] [MainThread]: Connection 'model.dbt_code.updated_headline_macro' was left open.
+[0m14:58:41.976443 [debug] [MainThread]: On model.dbt_code.updated_headline_macro: Close
+[0m14:58:42.105798 [info ] [MainThread]: 
+[0m14:58:42.105798 [info ] [MainThread]: Finished running 2 table models in 0 hours 0 minutes and 12.51 seconds (12.51s).
+[0m14:58:42.106690 [debug] [MainThread]: Command end result
+[0m14:58:42.129116 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m14:58:42.132038 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m14:58:42.140040 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\run_results.json
+[0m14:58:42.140040 [info ] [MainThread]: 
+[0m14:58:42.141041 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:58:42.142037 [info ] [MainThread]: 
+[0m14:58:42.142037 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=2
+[0m14:58:42.143118 [debug] [MainThread]: Command `dbt run` succeeded at 14:58:42.143118 after 15.13 seconds
+[0m14:58:42.143118 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C98A79A120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C98A5E0830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002C98A5E34D0>]}
+[0m14:58:42.144118 [debug] [MainThread]: Flushing usage events
+[0m14:58:43.060858 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:53:53.190991 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D056957290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D056957AA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D056954620>]}
+
+
+============================== 15:53:53.194988 | c468f076-b050-413e-bd9e-dd399ec46f10 ==============================
+[0m15:53:53.194988 [info ] [MainThread]: Running with dbt=1.10.10
+[0m15:53:53.195989 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'target_path': 'None', 'use_colors': 'True', 'invocation_command': 'dbt ', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'log_path': 'c:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\11\\dbt_code\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\eriku\\.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True'}
+[0m15:53:53.329095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c468f076-b050-413e-bd9e-dd399ec46f10', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D056D463F0>]}
+[0m15:53:53.421420 [debug] [MainThread]: Set downloads directory='C:\Users\eriku\AppData\Local\Temp\dbt-downloads-xj3b7zv8'
+[0m15:53:53.421420 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m15:53:53.479330 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m15:53:53.480330 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m15:53:53.505573 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m15:53:53.513026 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m15:53:54.183785 [info ] [MainThread]: Installed from version 1.2.0
+[0m15:53:54.184782 [info ] [MainThread]: Updated version available: 1.3.0
+[0m15:53:54.184782 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': 'c468f076-b050-413e-bd9e-dd399ec46f10', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D056F5A7E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0584B82F0>]}
+[0m15:53:54.185784 [info ] [MainThread]: 
+[0m15:53:54.185784 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m15:53:54.190785 [debug] [MainThread]: Command `cli deps` succeeded at 15:53:54.189785 after 1.13 seconds
+[0m15:53:54.191785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D056954620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0569578F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D0569569C0>]}
+[0m15:53:54.191785 [debug] [MainThread]: Flushing usage events
+[0m15:53:54.637849 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:55:20.140267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C858B74D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C827F9CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C8575C170>]}
+
+
+============================== 15:55:20.144373 | 7ac06be7-9170-4630-b4a7-2140f4140b38 ==============================
+[0m15:55:20.144373 [info ] [MainThread]: Running with dbt=1.10.10
+[0m15:55:20.145380 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\eriku\\.dbt', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'log_path': 'C:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\11\\dbt_code\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m15:55:21.705337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7ac06be7-9170-4630-b4a7-2140f4140b38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C8292AC60>]}
+[0m15:55:21.782843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7ac06be7-9170-4630-b4a7-2140f4140b38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C85401850>]}
+[0m15:55:21.784755 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m15:55:22.235543 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m15:55:22.372233 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m15:55:22.373233 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m15:55:22.377586 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.dbt_code.mart
+- models.dbt_code.fct
+[0m15:55:22.405023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7ac06be7-9170-4630-b4a7-2140f4140b38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C979F2B10>]}
+[0m15:55:22.462229 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m15:55:22.465401 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m15:55:22.503520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7ac06be7-9170-4630-b4a7-2140f4140b38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C97F3C440>]}
+[0m15:55:22.504519 [info ] [MainThread]: Found 8 models, 1 source, 595 macros
+[0m15:55:22.505066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7ac06be7-9170-4630-b4a7-2140f4140b38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C85474C50>]}
+[0m15:55:22.507174 [info ] [MainThread]: 
+[0m15:55:22.507686 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m15:55:22.508295 [info ] [MainThread]: 
+[0m15:55:22.508295 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m15:55:22.513320 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads'
+[0m15:55:22.648426 [debug] [ThreadPool]: Using snowflake connection "list_job_ads"
+[0m15:55:22.649340 [debug] [ThreadPool]: On list_job_ads: show terse schemas in database job_ads
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads"} */
+[0m15:55:22.649340 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:55:25.456937 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.807 seconds
+[0m15:55:25.461847 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads_warehouse'
+[0m15:55:25.472925 [debug] [ThreadPool]: Using snowflake connection "list_job_ads_warehouse"
+[0m15:55:25.472925 [debug] [ThreadPool]: On list_job_ads_warehouse: show objects in job_ads.warehouse
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads_warehouse"} */;
+[0m15:55:25.472925 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:55:27.984954 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 2.512 seconds
+[0m15:55:27.989027 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7ac06be7-9170-4630-b4a7-2140f4140b38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C97A2B620>]}
+[0m15:55:27.998195 [debug] [Thread-1 (]: Began running node model.dbt_code.original_headline
+[0m15:55:27.999283 [info ] [Thread-1 (]: 1 of 3 START sql table model warehouse.original_headline ....................... [RUN]
+[0m15:55:28.000194 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_code.original_headline'
+[0m15:55:28.001287 [debug] [Thread-1 (]: Began compiling node model.dbt_code.original_headline
+[0m15:55:28.008479 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.original_headline"
+[0m15:55:28.009468 [debug] [Thread-1 (]: Began executing node model.dbt_code.original_headline
+[0m15:55:28.038157 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.original_headline"
+[0m15:55:28.039205 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.original_headline"
+[0m15:55:28.040156 [debug] [Thread-1 (]: On model.dbt_code.original_headline: create or replace transient table job_ads.warehouse.original_headline
+    
+    
+    
+    as (SELECT 
+    headline
+FROM job_ads.staging.data_field_job_ads
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.original_headline"} */;
+[0m15:55:28.040156 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m15:55:33.305536 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 5.265 seconds
+[0m15:55:33.329577 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7ac06be7-9170-4630-b4a7-2140f4140b38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C82929F40>]}
+[0m15:55:33.330622 [info ] [Thread-1 (]: 1 of 3 OK created sql table model warehouse.original_headline .................. [[32mSUCCESS 1[0m in 5.33s]
+[0m15:55:33.331597 [debug] [Thread-1 (]: Finished running node model.dbt_code.original_headline
+[0m15:55:33.332586 [debug] [Thread-1 (]: Began running node model.dbt_code.src_employer
+[0m15:55:33.332586 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.original_headline, now model.dbt_code.src_employer)
+[0m15:55:33.333585 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_employer
+[0m15:55:33.338588 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_employer"
+[0m15:55:33.339591 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_employer
+[0m15:55:33.340586 [debug] [Thread-1 (]: Began running node model.dbt_code.src_job_ads
+[0m15:55:33.340586 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_employer, now model.dbt_code.src_job_ads)
+[0m15:55:33.341601 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_job_ads
+[0m15:55:33.343587 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_job_ads"
+[0m15:55:33.345864 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_job_ads
+[0m15:55:33.345864 [debug] [Thread-1 (]: Began running node model.dbt_code.src_job_details
+[0m15:55:33.346885 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_job_ads, now model.dbt_code.src_job_details)
+[0m15:55:33.347883 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_job_details
+[0m15:55:33.350944 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_job_details"
+[0m15:55:33.350944 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_job_details
+[0m15:55:33.350944 [debug] [Thread-1 (]: Began running node model.dbt_code.src_occupation
+[0m15:55:33.350944 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_job_details, now model.dbt_code.src_occupation)
+[0m15:55:33.350944 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_occupation
+[0m15:55:33.357740 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_occupation"
+[0m15:55:33.359649 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_occupation
+[0m15:55:33.359649 [debug] [Thread-1 (]: Began running node model.dbt_code.updated_headline_macro
+[0m15:55:33.359649 [info ] [Thread-1 (]: 2 of 3 START sql table model warehouse.updated_headline_macro .................. [RUN]
+[0m15:55:33.360770 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_occupation, now model.dbt_code.updated_headline_macro)
+[0m15:55:33.360770 [debug] [Thread-1 (]: Began compiling node model.dbt_code.updated_headline_macro
+[0m15:55:33.363862 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.updated_headline_macro"
+[0m15:55:33.364863 [debug] [Thread-1 (]: Began executing node model.dbt_code.updated_headline_macro
+[0m15:55:33.367866 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.updated_headline_macro"
+[0m15:55:33.368860 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.updated_headline_macro"
+[0m15:55:33.368860 [debug] [Thread-1 (]: On model.dbt_code.updated_headline_macro: create or replace transient table job_ads.warehouse.updated_headline_macro
+    
+    
+    
+    as (WITH staging_data AS (
+    SELECT 
+        *
+    FROM job_ads.warehouse.original_headline)
+
+SELECT 
+    
+    CASE 
+        WHEN headline = 'Data Engineer' THEN 'Junior Data Engineer'
+        ELSE headline
+    END
+ AS updated_job_title
+FROM staging_data
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.updated_headline_macro"} */;
+[0m15:55:34.975196 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.605 seconds
+[0m15:55:34.980890 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7ac06be7-9170-4630-b4a7-2140f4140b38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C98A3B5F0>]}
+[0m15:55:34.981887 [info ] [Thread-1 (]: 2 of 3 OK created sql table model warehouse.updated_headline_macro ............. [[32mSUCCESS 1[0m in 1.62s]
+[0m15:55:34.984150 [debug] [Thread-1 (]: Finished running node model.dbt_code.updated_headline_macro
+[0m15:55:34.984150 [debug] [Thread-1 (]: Began running node model.dbt_code.dim_job_details
+[0m15:55:34.985169 [info ] [Thread-1 (]: 3 of 3 START sql table model warehouse.dim_job_details ......................... [RUN]
+[0m15:55:34.994931 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.updated_headline_macro, now model.dbt_code.dim_job_details)
+[0m15:55:34.997210 [debug] [Thread-1 (]: Began compiling node model.dbt_code.dim_job_details
+[0m15:55:35.019394 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.dim_job_details"
+[0m15:55:35.022398 [debug] [Thread-1 (]: Began executing node model.dbt_code.dim_job_details
+[0m15:55:35.025397 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.dim_job_details"
+[0m15:55:35.027583 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.dim_job_details"
+[0m15:55:35.028676 [debug] [Thread-1 (]: On model.dbt_code.dim_job_details: create or replace transient table job_ads.warehouse.dim_job_details
+    
+    
+    
+    as (with  __dbt__cte__src_job_details as (
+with stg_job_ads as (select * from job_ads.staging.data_field_job_ads)
+
+select
+    id,
+    headline,
+    description__text AS "description",
+    description__text_formatted AS description_html_formatted,
+    employment_type__label AS employment_type,
+    duration__label as duration,
+    salary_type__label as salary_type,
+    scope_of_work__min as scope_of_work_min,
+    scope_of_work__max as scope_of_work_max
+
+  
+from stg_job_ads
+), src_job_details as (select * from __dbt__cte__src_job_details)
+
+
+
+-- we use aggregate function max() for deduplicate, but there are more alternative codes one can use for this purpose
+select
+    md5(cast(coalesce(cast(id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(headline as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as job_details_id,
+    headline,
+    description,
+    description_html_formatted,
+    employment_type,
+    duration,
+    salary_type,
+    scope_of_work_min,
+    scope_of_work__max
+from src_job_details
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.dim_job_details"} */;
+[0m15:55:35.174545 [debug] [Thread-1 (]: Snowflake adapter: Snowflake query id: 01bece03-0107-1e5e-0004-9a820002b262
+[0m15:55:35.175545 [debug] [Thread-1 (]: Snowflake adapter: Snowflake error: 000904 (42000): SQL compilation error: error line 29 at position 4
+invalid identifier 'DESCRIPTION'
+[0m15:55:35.178546 [debug] [Thread-1 (]: Database Error in model dim_job_details (models\dim\dim_job_details.sql)
+  000904 (42000): SQL compilation error: error line 29 at position 4
+  invalid identifier 'DESCRIPTION'
+  compiled code at target\run\dbt_code\models\dim\dim_job_details.sql
+[0m15:55:35.179545 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7ac06be7-9170-4630-b4a7-2140f4140b38', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C99216A50>]}
+[0m15:55:35.179545 [error] [Thread-1 (]: 3 of 3 ERROR creating sql table model warehouse.dim_job_details ................ [[31mERROR[0m in 0.18s]
+[0m15:55:35.180546 [debug] [Thread-1 (]: Finished running node model.dbt_code.dim_job_details
+[0m15:55:35.181546 [debug] [Thread-4 (]: Marking all children of 'model.dbt_code.dim_job_details' to be skipped because of status 'error'.  Reason: Database Error in model dim_job_details (models\dim\dim_job_details.sql)
+  000904 (42000): SQL compilation error: error line 29 at position 4
+  invalid identifier 'DESCRIPTION'
+  compiled code at target\run\dbt_code\models\dim\dim_job_details.sql.
+[0m15:55:35.182546 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:55:35.183547 [debug] [MainThread]: Connection 'list_job_ads' was left open.
+[0m15:55:35.183547 [debug] [MainThread]: On list_job_ads: Close
+[0m15:55:35.292045 [debug] [MainThread]: Connection 'list_job_ads_warehouse' was left open.
+[0m15:55:35.293146 [debug] [MainThread]: On list_job_ads_warehouse: Close
+[0m15:55:35.425193 [debug] [MainThread]: Connection 'model.dbt_code.dim_job_details' was left open.
+[0m15:55:35.426223 [debug] [MainThread]: On model.dbt_code.dim_job_details: Close
+[0m15:55:35.537971 [info ] [MainThread]: 
+[0m15:55:35.538995 [info ] [MainThread]: Finished running 3 table models in 0 hours 0 minutes and 13.03 seconds (13.03s).
+[0m15:55:35.542132 [debug] [MainThread]: Command end result
+[0m15:55:35.569172 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m15:55:35.572288 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m15:55:35.579389 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\run_results.json
+[0m15:55:35.579389 [info ] [MainThread]: 
+[0m15:55:35.580382 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m15:55:35.581326 [info ] [MainThread]: 
+[0m15:55:35.581326 [error] [MainThread]: [31mFailure in model dim_job_details (models\dim\dim_job_details.sql)[0m
+[0m15:55:35.582288 [error] [MainThread]:   Database Error in model dim_job_details (models\dim\dim_job_details.sql)
+  000904 (42000): SQL compilation error: error line 29 at position 4
+  invalid identifier 'DESCRIPTION'
+  compiled code at target\run\dbt_code\models\dim\dim_job_details.sql
+[0m15:55:35.583293 [info ] [MainThread]: 
+[0m15:55:35.583293 [info ] [MainThread]:   compiled code at target\compiled\dbt_code\models\dim\dim_job_details.sql
+[0m15:55:35.584333 [info ] [MainThread]: 
+[0m15:55:35.584333 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=3
+[0m15:55:35.585289 [debug] [MainThread]: Command `dbt run` failed at 15:55:35.585289 after 15.58 seconds
+[0m15:55:35.586308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C8575C170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C86A63650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023C86A62E70>]}
+[0m15:55:35.586308 [debug] [MainThread]: Flushing usage events
+[0m15:55:36.580345 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:18:32.331236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FD602D070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FD6087C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FD8734170>]}
+
+
+============================== 18:18:32.338266 | d2fd8230-50cc-451e-b832-569bec06d2e6 ==============================
+[0m18:18:32.338266 [info ] [MainThread]: Running with dbt=1.10.10
+[0m18:18:32.338266 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'quiet': 'False', 'log_cache_events': 'False', 'use_experimental_parser': 'False', 'log_path': 'C:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\11\\dbt_code\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\eriku\\.dbt'}
+[0m18:18:34.045940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FD625B050>]}
+[0m18:18:34.124790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FEB349790>]}
+[0m18:18:34.128083 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m18:18:34.484987 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m18:18:34.672676 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:18:34.672676 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:18:34.678209 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models.dbt_code.fct
+- models.dbt_code.mart
+[0m18:18:34.709330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FEB5A5460>]}
+[0m18:18:34.777798 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m18:18:34.781814 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m18:18:34.831696 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FEB85CA70>]}
+[0m18:18:34.831696 [info ] [MainThread]: Found 8 models, 1 source, 596 macros
+[0m18:18:34.832713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FE9AA2AB0>]}
+[0m18:18:34.834709 [info ] [MainThread]: 
+[0m18:18:34.835216 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m18:18:34.835216 [info ] [MainThread]: 
+[0m18:18:34.836222 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:18:34.840025 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads'
+[0m18:18:35.095355 [debug] [ThreadPool]: Using snowflake connection "list_job_ads"
+[0m18:18:35.095355 [debug] [ThreadPool]: On list_job_ads: show terse schemas in database job_ads
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads"} */
+[0m18:18:35.095355 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:18:38.398398 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 3.303 seconds
+[0m18:18:38.398398 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads_warehouse'
+[0m18:18:38.413984 [debug] [ThreadPool]: Using snowflake connection "list_job_ads_warehouse"
+[0m18:18:38.413984 [debug] [ThreadPool]: On list_job_ads_warehouse: show objects in job_ads.warehouse
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads_warehouse"} */;
+[0m18:18:38.413984 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:18:41.888009 [debug] [ThreadPool]: SQL status: SUCCESS 2 in 3.471 seconds
+[0m18:18:41.893039 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FEB34B6E0>]}
+[0m18:18:41.901721 [debug] [Thread-1 (]: Began running node model.dbt_code.original_headline
+[0m18:18:41.902726 [info ] [Thread-1 (]: 1 of 4 START sql table model warehouse.original_headline ....................... [RUN]
+[0m18:18:41.902726 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_code.original_headline'
+[0m18:18:41.903815 [debug] [Thread-1 (]: Began compiling node model.dbt_code.original_headline
+[0m18:18:41.909409 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.original_headline"
+[0m18:18:41.910496 [debug] [Thread-1 (]: Began executing node model.dbt_code.original_headline
+[0m18:18:41.946647 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.original_headline"
+[0m18:18:41.948238 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.original_headline"
+[0m18:18:41.949245 [debug] [Thread-1 (]: On model.dbt_code.original_headline: create or replace transient table job_ads.warehouse.original_headline
+    
+    
+    
+    as (SELECT 
+    headline
+FROM job_ads.staging.data_field_job_ads
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.original_headline"} */;
+[0m18:18:41.949245 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m18:18:48.532256 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 6.583 seconds
+[0m18:18:48.572878 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FD625A2A0>]}
+[0m18:18:48.572878 [info ] [Thread-1 (]: 1 of 4 OK created sql table model warehouse.original_headline .................. [[32mSUCCESS 1[0m in 6.66s]
+[0m18:18:48.573882 [debug] [Thread-1 (]: Finished running node model.dbt_code.original_headline
+[0m18:18:48.574880 [debug] [Thread-1 (]: Began running node model.dbt_code.src_employer
+[0m18:18:48.574880 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.original_headline, now model.dbt_code.src_employer)
+[0m18:18:48.574880 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_employer
+[0m18:18:48.576876 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_employer"
+[0m18:18:48.579386 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_employer
+[0m18:18:48.579386 [debug] [Thread-1 (]: Began running node model.dbt_code.src_job_ads
+[0m18:18:48.579386 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_employer, now model.dbt_code.src_job_ads)
+[0m18:18:48.580390 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_job_ads
+[0m18:18:48.583400 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_job_ads"
+[0m18:18:48.587392 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_job_ads
+[0m18:18:48.587392 [debug] [Thread-1 (]: Began running node model.dbt_code.src_job_details
+[0m18:18:48.588391 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_job_ads, now model.dbt_code.src_job_details)
+[0m18:18:48.588894 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_job_details
+[0m18:18:48.592990 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_job_details"
+[0m18:18:48.594728 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_job_details
+[0m18:18:48.595733 [debug] [Thread-1 (]: Began running node model.dbt_code.src_occupation
+[0m18:18:48.595733 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_job_details, now model.dbt_code.src_occupation)
+[0m18:18:48.595733 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_occupation
+[0m18:18:48.602493 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_occupation"
+[0m18:18:48.605192 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_occupation
+[0m18:18:48.606200 [debug] [Thread-1 (]: Began running node model.dbt_code.updated_headline_macro
+[0m18:18:48.606200 [info ] [Thread-1 (]: 2 of 4 START sql table model warehouse.updated_headline_macro .................. [RUN]
+[0m18:18:48.607201 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_occupation, now model.dbt_code.updated_headline_macro)
+[0m18:18:48.607201 [debug] [Thread-1 (]: Began compiling node model.dbt_code.updated_headline_macro
+[0m18:18:48.611227 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.updated_headline_macro"
+[0m18:18:48.612228 [debug] [Thread-1 (]: Began executing node model.dbt_code.updated_headline_macro
+[0m18:18:48.617228 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.updated_headline_macro"
+[0m18:18:48.620559 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.updated_headline_macro"
+[0m18:18:48.620559 [debug] [Thread-1 (]: On model.dbt_code.updated_headline_macro: create or replace transient table job_ads.warehouse.updated_headline_macro
+    
+    
+    
+    as (WITH staging_data AS (
+    SELECT 
+        *
+    FROM job_ads.warehouse.original_headline)
+
+SELECT 
+    
+    CASE 
+        WHEN headline = 'Data Engineer' THEN 'Junior Data Engineer'
+        ELSE headline
+    END
+ AS updated_job_title
+FROM staging_data
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.updated_headline_macro"} */;
+[0m18:18:50.787912 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 2.167 seconds
+[0m18:18:50.790212 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FECAB42F0>]}
+[0m18:18:50.790212 [info ] [Thread-1 (]: 2 of 4 OK created sql table model warehouse.updated_headline_macro ............. [[32mSUCCESS 1[0m in 2.18s]
+[0m18:18:50.791352 [debug] [Thread-1 (]: Finished running node model.dbt_code.updated_headline_macro
+[0m18:18:50.791352 [debug] [Thread-1 (]: Began running node model.dbt_code.dim_employer
+[0m18:18:50.792360 [info ] [Thread-1 (]: 3 of 4 START sql table model warehouse.dim_employer ............................ [RUN]
+[0m18:18:50.792360 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.updated_headline_macro, now model.dbt_code.dim_employer)
+[0m18:18:50.793366 [debug] [Thread-1 (]: Began compiling node model.dbt_code.dim_employer
+[0m18:18:50.811938 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.dim_employer"
+[0m18:18:50.812922 [debug] [Thread-1 (]: Began executing node model.dbt_code.dim_employer
+[0m18:18:50.817944 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.dim_employer"
+[0m18:18:50.820994 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.dim_employer"
+[0m18:18:50.820994 [debug] [Thread-1 (]: On model.dbt_code.dim_employer: create or replace transient table job_ads.warehouse.dim_employer
+    
+    
+    
+    as (WITH  __dbt__cte__src_employer as (
+with stg_job_ads as (select * from job_ads.staging.data_field_job_ads)
+
+select
+    id,
+     employer__name as employer_name,
+     employer__workplace as employer_workplace,
+     workplace_address__city as workplace_city,
+ from stg_job_ads
+), src_employer as (select * from __dbt__cte__src_employer)
+
+select 
+
+    md5(cast(coalesce(cast(id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(employer_name as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) AS employer_id,
+    employer_name,
+
+    
+    case
+        when coalesce(workplace_city, 'stad ej specificerad') is null
+        then null
+        else upper(substr(coalesce(workplace_city, 'stad ej specificerad'), 1, 1)) || lower(substr(coalesce(workplace_city, 'stad ej specificerad'), 2))
+    end
+ AS workplace_city
+
+ from src_employer
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.dim_employer"} */;
+[0m18:18:53.244036 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 2.422 seconds
+[0m18:18:53.248045 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FD6CAD490>]}
+[0m18:18:53.248648 [info ] [Thread-1 (]: 3 of 4 OK created sql table model warehouse.dim_employer ....................... [[32mSUCCESS 1[0m in 2.46s]
+[0m18:18:53.250659 [debug] [Thread-1 (]: Finished running node model.dbt_code.dim_employer
+[0m18:18:53.251731 [debug] [Thread-1 (]: Began running node model.dbt_code.dim_job_details
+[0m18:18:53.251731 [info ] [Thread-1 (]: 4 of 4 START sql table model warehouse.dim_job_details ......................... [RUN]
+[0m18:18:53.252752 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.dim_employer, now model.dbt_code.dim_job_details)
+[0m18:18:53.252752 [debug] [Thread-1 (]: Began compiling node model.dbt_code.dim_job_details
+[0m18:18:53.259266 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.dim_job_details"
+[0m18:18:53.261270 [debug] [Thread-1 (]: Began executing node model.dbt_code.dim_job_details
+[0m18:18:53.263268 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.dim_job_details"
+[0m18:18:53.265268 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.dim_job_details"
+[0m18:18:53.265268 [debug] [Thread-1 (]: On model.dbt_code.dim_job_details: create or replace transient table job_ads.warehouse.dim_job_details
+    
+    
+    
+    as (with  __dbt__cte__src_job_details as (
+with stg_job_ads as (select * from job_ads.staging.data_field_job_ads)
+
+select
+    id,
+    headline,
+    description__text AS description,
+    description__text_formatted AS description_html_formatted,
+    employment_type__label AS employment_type,
+    duration__label as duration,
+    salary_type__label as salary_type,
+    scope_of_work__min as scope_of_work_min,
+    scope_of_work__max as scope_of_work_max
+
+  
+from stg_job_ads
+), src_job_details as (select * from __dbt__cte__src_job_details)
+
+
+
+-- we use aggregate function max() for deduplicate, but there are more alternative codes one can use for this purpose
+select
+    md5(cast(coalesce(cast(id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(headline as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as job_details_id,
+    headline,
+    description,
+    description_html_formatted,
+    employment_type,
+    duration,
+    salary_type,
+    scope_of_work_min,
+    scope_of_work_max
+from src_job_details
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.dim_job_details"} */;
+[0m18:18:54.574990 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.309 seconds
+[0m18:18:54.578610 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'd2fd8230-50cc-451e-b832-569bec06d2e6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FECB6F560>]}
+[0m18:18:54.579628 [info ] [Thread-1 (]: 4 of 4 OK created sql table model warehouse.dim_job_details .................... [[32mSUCCESS 1[0m in 1.33s]
+[0m18:18:54.579628 [debug] [Thread-1 (]: Finished running node model.dbt_code.dim_job_details
+[0m18:18:54.581611 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:18:54.581611 [debug] [MainThread]: Connection 'list_job_ads' was left open.
+[0m18:18:54.581611 [debug] [MainThread]: On list_job_ads: Close
+[0m18:18:54.788910 [debug] [MainThread]: Connection 'list_job_ads_warehouse' was left open.
+[0m18:18:54.789916 [debug] [MainThread]: On list_job_ads_warehouse: Close
+[0m18:18:54.951459 [debug] [MainThread]: Connection 'model.dbt_code.dim_job_details' was left open.
+[0m18:18:54.952461 [debug] [MainThread]: On model.dbt_code.dim_job_details: Close
+[0m18:18:55.089255 [info ] [MainThread]: 
+[0m18:18:55.090252 [info ] [MainThread]: Finished running 4 table models in 0 hours 0 minutes and 20.25 seconds (20.25s).
+[0m18:18:55.092559 [debug] [MainThread]: Command end result
+[0m18:18:55.126205 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m18:18:55.128812 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m18:18:55.136829 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\run_results.json
+[0m18:18:55.138336 [info ] [MainThread]: 
+[0m18:18:55.139344 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m18:18:55.139344 [info ] [MainThread]: 
+[0m18:18:55.140361 [info ] [MainThread]: Done. PASS=4 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=4
+[0m18:18:55.141405 [debug] [MainThread]: Command `dbt run` succeeded at 18:18:55.141405 after 22.99 seconds
+[0m18:18:55.141405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FEB3B4290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FD86EA750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024FD86EB6E0>]}
+[0m18:18:55.142386 [debug] [MainThread]: Flushing usage events
+[0m18:18:56.518374 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:14:54.982818 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F482E9FA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F45E3DEB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F48814A70>]}
+
+
+============================== 20:14:54.988848 | f76784ac-b76c-4ee8-800d-4d665ece2443 ==============================
+[0m20:14:54.988848 [info ] [MainThread]: Running with dbt=1.10.10
+[0m20:14:54.989767 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt run', 'log_format': 'default', 'use_colors': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'empty': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'log_path': 'C:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\11\\dbt_code\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\eriku\\.dbt'}
+[0m20:14:56.559551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F49114EC0>]}
+[0m20:14:56.631231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F5B051C40>]}
+[0m20:14:56.633009 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m20:14:57.297519 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m20:14:57.454286 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m20:14:57.455287 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m20:14:57.483224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F5AF12FF0>]}
+[0m20:14:57.543720 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m20:14:57.546723 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m20:14:57.580268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F5B2B5610>]}
+[0m20:14:57.581265 [info ] [MainThread]: Found 10 models, 1 source, 596 macros
+[0m20:14:57.581265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F5B6EECF0>]}
+[0m20:14:57.583285 [info ] [MainThread]: 
+[0m20:14:57.584281 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m20:14:57.584281 [info ] [MainThread]: 
+[0m20:14:57.585488 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m20:14:57.589912 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads'
+[0m20:14:57.725434 [debug] [ThreadPool]: Using snowflake connection "list_job_ads"
+[0m20:14:57.726433 [debug] [ThreadPool]: On list_job_ads: show terse schemas in database job_ads
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads"} */
+[0m20:14:57.726433 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:15:00.591571 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.865 seconds
+[0m20:15:00.597634 [debug] [ThreadPool]: Using snowflake connection "list_job_ads"
+[0m20:15:00.597634 [debug] [ThreadPool]: On list_job_ads: show terse schemas in database job_ads
+    limit 10000
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads"} */
+[0m20:15:01.090883 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.493 seconds
+[0m20:15:01.096790 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_job_ads_warehouse'
+[0m20:15:01.112221 [debug] [ThreadPool]: Using snowflake connection "list_job_ads_warehouse"
+[0m20:15:01.113224 [debug] [ThreadPool]: On list_job_ads_warehouse: show objects in job_ads.warehouse
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads_warehouse"} */;
+[0m20:15:01.113224 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m20:15:03.882502 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.769 seconds
+[0m20:15:03.886796 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_job_ads_warehouse, now list_job_ads_marts)
+[0m20:15:03.888894 [debug] [ThreadPool]: Using snowflake connection "list_job_ads_marts"
+[0m20:15:03.889890 [debug] [ThreadPool]: On list_job_ads_marts: show objects in job_ads.marts
+    limit 10000
+    
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "connection_name": "list_job_ads_marts"} */;
+[0m20:15:03.999199 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 0.110 seconds
+[0m20:15:04.004196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F5B74A660>]}
+[0m20:15:04.013625 [debug] [Thread-1 (]: Began running node model.dbt_code.original_headline
+[0m20:15:04.014697 [info ] [Thread-1 (]: 1 of 6 START sql table model warehouse.original_headline ....................... [RUN]
+[0m20:15:04.015911 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.dbt_code.original_headline'
+[0m20:15:04.015911 [debug] [Thread-1 (]: Began compiling node model.dbt_code.original_headline
+[0m20:15:04.022993 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.original_headline"
+[0m20:15:04.023998 [debug] [Thread-1 (]: Began executing node model.dbt_code.original_headline
+[0m20:15:04.059959 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.original_headline"
+[0m20:15:04.060910 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.original_headline"
+[0m20:15:04.060910 [debug] [Thread-1 (]: On model.dbt_code.original_headline: create or replace transient table job_ads.warehouse.original_headline
+    
+    
+    
+    as (SELECT 
+    headline
+FROM job_ads.staging.data_field_job_ads
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.original_headline"} */;
+[0m20:15:04.061996 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m20:15:11.471710 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 7.409 seconds
+[0m20:15:11.503950 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F45F7A0C0>]}
+[0m20:15:11.503950 [info ] [Thread-1 (]: 1 of 6 OK created sql table model warehouse.original_headline .................. [[32mSUCCESS 1[0m in 7.48s]
+[0m20:15:11.507037 [debug] [Thread-1 (]: Finished running node model.dbt_code.original_headline
+[0m20:15:11.507037 [debug] [Thread-1 (]: Began running node model.dbt_code.src_employer
+[0m20:15:11.507037 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.original_headline, now model.dbt_code.src_employer)
+[0m20:15:11.508027 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_employer
+[0m20:15:11.511041 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_employer"
+[0m20:15:11.511969 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_employer
+[0m20:15:11.512949 [debug] [Thread-1 (]: Began running node model.dbt_code.src_job_ads
+[0m20:15:11.512949 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_employer, now model.dbt_code.src_job_ads)
+[0m20:15:11.514045 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_job_ads
+[0m20:15:11.518041 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_job_ads"
+[0m20:15:11.519047 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_job_ads
+[0m20:15:11.520432 [debug] [Thread-1 (]: Began running node model.dbt_code.src_job_details
+[0m20:15:11.521442 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_job_ads, now model.dbt_code.src_job_details)
+[0m20:15:11.522445 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_job_details
+[0m20:15:11.526547 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_job_details"
+[0m20:15:11.527532 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_job_details
+[0m20:15:11.528860 [debug] [Thread-1 (]: Began running node model.dbt_code.src_occupation
+[0m20:15:11.529457 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_job_details, now model.dbt_code.src_occupation)
+[0m20:15:11.529457 [debug] [Thread-1 (]: Began compiling node model.dbt_code.src_occupation
+[0m20:15:11.531546 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.src_occupation"
+[0m20:15:11.533270 [debug] [Thread-1 (]: Finished running node model.dbt_code.src_occupation
+[0m20:15:11.534275 [debug] [Thread-1 (]: Began running node model.dbt_code.updated_headline_macro
+[0m20:15:11.534275 [info ] [Thread-1 (]: 2 of 6 START sql table model warehouse.updated_headline_macro .................. [RUN]
+[0m20:15:11.535055 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.src_occupation, now model.dbt_code.updated_headline_macro)
+[0m20:15:11.535055 [debug] [Thread-1 (]: Began compiling node model.dbt_code.updated_headline_macro
+[0m20:15:11.540059 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.updated_headline_macro"
+[0m20:15:11.541305 [debug] [Thread-1 (]: Began executing node model.dbt_code.updated_headline_macro
+[0m20:15:11.543379 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.updated_headline_macro"
+[0m20:15:11.545307 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.updated_headline_macro"
+[0m20:15:11.546298 [debug] [Thread-1 (]: On model.dbt_code.updated_headline_macro: create or replace transient table job_ads.warehouse.updated_headline_macro
+    
+    
+    
+    as (WITH staging_data AS (
+    SELECT 
+        *
+    FROM job_ads.warehouse.original_headline)
+
+SELECT 
+    
+    CASE 
+        WHEN headline = 'Data Engineer' THEN 'Junior Data Engineer'
+        ELSE headline
+    END
+ AS updated_job_title
+FROM staging_data
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.updated_headline_macro"} */;
+[0m20:15:14.403979 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 2.858 seconds
+[0m20:15:14.409503 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F5C7E83E0>]}
+[0m20:15:14.411500 [info ] [Thread-1 (]: 2 of 6 OK created sql table model warehouse.updated_headline_macro ............. [[32mSUCCESS 1[0m in 2.87s]
+[0m20:15:14.413421 [debug] [Thread-1 (]: Finished running node model.dbt_code.updated_headline_macro
+[0m20:15:14.414512 [debug] [Thread-1 (]: Began running node model.dbt_code.dim_employer
+[0m20:15:14.414876 [info ] [Thread-1 (]: 3 of 6 START sql table model warehouse.dim_employer ............................ [RUN]
+[0m20:15:14.416882 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.updated_headline_macro, now model.dbt_code.dim_employer)
+[0m20:15:14.416882 [debug] [Thread-1 (]: Began compiling node model.dbt_code.dim_employer
+[0m20:15:14.435272 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.dim_employer"
+[0m20:15:14.436272 [debug] [Thread-1 (]: Began executing node model.dbt_code.dim_employer
+[0m20:15:14.443377 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.dim_employer"
+[0m20:15:14.445272 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.dim_employer"
+[0m20:15:14.445272 [debug] [Thread-1 (]: On model.dbt_code.dim_employer: create or replace transient table job_ads.warehouse.dim_employer
+    
+    
+    
+    as (WITH  __dbt__cte__src_employer as (
+with stg_job_ads as (select * from job_ads.staging.data_field_job_ads)
+
+select
+    id,
+     employer__name as employer_name,
+     employer__workplace as employer_workplace,
+     workplace_address__city as workplace_city,
+ from stg_job_ads
+), src_employer as (select * from __dbt__cte__src_employer)
+
+select 
+
+    md5(cast(coalesce(cast(id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(employer_name as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) AS employer_id,
+    employer_name,
+
+    
+    case
+        when coalesce(workplace_city, 'stad ej specificerad') is null
+        then null
+        else upper(substr(coalesce(workplace_city, 'stad ej specificerad'), 1, 1)) || lower(substr(coalesce(workplace_city, 'stad ej specificerad'), 2))
+    end
+ AS workplace_city
+
+ from src_employer
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.dim_employer"} */;
+[0m20:15:16.248494 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.802 seconds
+[0m20:15:16.249495 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F469CD2B0>]}
+[0m20:15:16.250493 [info ] [Thread-1 (]: 3 of 6 OK created sql table model warehouse.dim_employer ....................... [[32mSUCCESS 1[0m in 1.83s]
+[0m20:15:16.251494 [debug] [Thread-1 (]: Finished running node model.dbt_code.dim_employer
+[0m20:15:16.251494 [debug] [Thread-1 (]: Began running node model.dbt_code.dim_job_details
+[0m20:15:16.252617 [info ] [Thread-1 (]: 4 of 6 START sql table model warehouse.dim_job_details ......................... [RUN]
+[0m20:15:16.253428 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.dim_employer, now model.dbt_code.dim_job_details)
+[0m20:15:16.253428 [debug] [Thread-1 (]: Began compiling node model.dbt_code.dim_job_details
+[0m20:15:16.262664 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.dim_job_details"
+[0m20:15:16.264665 [debug] [Thread-1 (]: Began executing node model.dbt_code.dim_job_details
+[0m20:15:16.266884 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.dim_job_details"
+[0m20:15:16.268881 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.dim_job_details"
+[0m20:15:16.269965 [debug] [Thread-1 (]: On model.dbt_code.dim_job_details: create or replace transient table job_ads.warehouse.dim_job_details
+    
+    
+    
+    as (with  __dbt__cte__src_job_details as (
+with stg_job_ads as (select * from job_ads.staging.data_field_job_ads)
+
+select
+    id,
+    headline,
+    description__text AS description,
+    description__text_formatted AS description_html_formatted,
+    employment_type__label AS employment_type,
+    duration__label as duration,
+    salary_type__label as salary_type,
+    scope_of_work__min as scope_of_work_min,
+    scope_of_work__max as scope_of_work_max
+
+  
+from stg_job_ads
+), src_job_details as (select * from __dbt__cte__src_job_details)
+
+
+
+-- we use aggregate function max() for deduplicate, but there are more alternative codes one can use for this purpose
+select
+    md5(cast(coalesce(cast(id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(headline as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as job_details_id,
+    headline,
+    description,
+    description_html_formatted,
+    employment_type,
+    duration,
+    salary_type,
+    scope_of_work_min,
+    scope_of_work_max
+from src_job_details
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.dim_job_details"} */;
+[0m20:15:16.968261 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.697 seconds
+[0m20:15:16.973183 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F5C882810>]}
+[0m20:15:16.974264 [info ] [Thread-1 (]: 4 of 6 OK created sql table model warehouse.dim_job_details .................... [[32mSUCCESS 1[0m in 0.72s]
+[0m20:15:16.976217 [debug] [Thread-1 (]: Finished running node model.dbt_code.dim_job_details
+[0m20:15:16.976217 [debug] [Thread-1 (]: Began running node model.dbt_code.fct_job_ads
+[0m20:15:16.977203 [info ] [Thread-1 (]: 5 of 6 START sql table model warehouse.fct_job_ads ............................. [RUN]
+[0m20:15:16.978144 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.dim_job_details, now model.dbt_code.fct_job_ads)
+[0m20:15:16.978144 [debug] [Thread-1 (]: Began compiling node model.dbt_code.fct_job_ads
+[0m20:15:16.991396 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.fct_job_ads"
+[0m20:15:16.992397 [debug] [Thread-1 (]: Began executing node model.dbt_code.fct_job_ads
+[0m20:15:16.995396 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.fct_job_ads"
+[0m20:15:16.999402 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.fct_job_ads"
+[0m20:15:17.000446 [debug] [Thread-1 (]: On model.dbt_code.fct_job_ads: create or replace transient table job_ads.warehouse.fct_job_ads
+    
+    
+    
+    as (with  __dbt__cte__src_job_ads as (
+-- this is an extract of the model
+
+with stg_job_ads as (select * from job_ads.staging.data_field_job_ads)
+
+select
+    id,
+    headline,
+    occupation__label,
+    number_of_vacancies as vacancies,
+    relevance,
+    application_deadline
+from stg_job_ads
+order by application_deadline
+),  __dbt__cte__src_job_details as (
+with stg_job_ads as (select * from job_ads.staging.data_field_job_ads)
+
+select
+    id,
+    headline,
+    description__text AS description,
+    description__text_formatted AS description_html_formatted,
+    employment_type__label AS employment_type,
+    duration__label as duration,
+    salary_type__label as salary_type,
+    scope_of_work__min as scope_of_work_min,
+    scope_of_work__max as scope_of_work_max
+
+  
+from stg_job_ads
+),  __dbt__cte__src_employer as (
+with stg_job_ads as (select * from job_ads.staging.data_field_job_ads)
+
+select
+    id,
+     employer__name as employer_name,
+     employer__workplace as employer_workplace,
+     workplace_address__city as workplace_city,
+ from stg_job_ads
+), ja as (select * from __dbt__cte__src_job_ads),
+
+jd as (select * from __dbt__cte__src_job_details),
+
+e as (select * from __dbt__cte__src_employer)
+
+select
+    md5(cast(coalesce(cast(jd.id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(jd.headline as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as job_details_key,
+    md5(cast(coalesce(cast(jd.id as TEXT), '_dbt_utils_surrogate_key_null_') || '-' || coalesce(cast(e.employer_name as TEXT), '_dbt_utils_surrogate_key_null_') as TEXT)) as employer_key,
+
+    vacancies,
+    relevance,
+    application_deadline,
+
+    e.employer_name,
+    jd.description
+
+
+    
+from 
+    ja
+left join
+    jd ON ja.id = jd.id
+left join
+    e on ja.id = e.id
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.fct_job_ads"} */;
+[0m20:15:19.590805 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 2.590 seconds
+[0m20:15:19.593784 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F5C075580>]}
+[0m20:15:19.593784 [info ] [Thread-1 (]: 5 of 6 OK created sql table model warehouse.fct_job_ads ........................ [[32mSUCCESS 1[0m in 2.61s]
+[0m20:15:19.594712 [debug] [Thread-1 (]: Finished running node model.dbt_code.fct_job_ads
+[0m20:15:19.595704 [debug] [Thread-1 (]: Began running node model.dbt_code.mart_job_listings
+[0m20:15:19.595704 [info ] [Thread-1 (]: 6 of 6 START sql table model marts.mart_job_listings ........................... [RUN]
+[0m20:15:19.596704 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.dbt_code.fct_job_ads, now model.dbt_code.mart_job_listings)
+[0m20:15:19.596704 [debug] [Thread-1 (]: Began compiling node model.dbt_code.mart_job_listings
+[0m20:15:19.600709 [debug] [Thread-1 (]: Writing injected SQL for node "model.dbt_code.mart_job_listings"
+[0m20:15:19.612118 [debug] [Thread-1 (]: Began executing node model.dbt_code.mart_job_listings
+[0m20:15:19.616125 [debug] [Thread-1 (]: Writing runtime sql for node "model.dbt_code.mart_job_listings"
+[0m20:15:19.619680 [debug] [Thread-1 (]: Using snowflake connection "model.dbt_code.mart_job_listings"
+[0m20:15:19.620594 [debug] [Thread-1 (]: On model.dbt_code.mart_job_listings: create or replace transient table job_ads.marts.mart_job_listings
+    
+    
+    
+    as (-- this is an extract of the model
+
+with
+    fct_job_ads as 
+        (select * from job_ads.warehouse.fct_job_ads
+    
+),
+
+job_details AS (SELECT * FROM job_ads.warehouse.dim_job_details),
+
+employer AS (SELECT * FROM job_ads.warehouse.dim_employer)
+
+
+    
+select
+    jd.headline,
+    f.vacancies,
+    jd.salary_type,
+    f.relevance,
+    e.employer_name,
+    e.workplace_city,
+    jd.description,
+    jd.description_html_formatted,
+    jd.duration,
+    jd.scope_of_work_min,
+    jd.scope_of_work_max,
+    f.application_deadline
+from fct_job_ads AS f
+left join job_details AS jd
+    ON f.job_details_key = jd.job_details_id
+left join employer AS e
+    on f.employer_key = e.employer_id
+    )
+
+/* {"app": "dbt", "dbt_version": "1.10.10", "profile_name": "dbt_snowflake", "target_name": "dev", "node_id": "model.dbt_code.mart_job_listings"} */;
+[0m20:15:21.571087 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.950 seconds
+[0m20:15:21.573094 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f76784ac-b76c-4ee8-800d-4d665ece2443', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F5C8AA6F0>]}
+[0m20:15:21.574087 [info ] [Thread-1 (]: 6 of 6 OK created sql table model marts.mart_job_listings ...................... [[32mSUCCESS 1[0m in 1.98s]
+[0m20:15:21.574758 [debug] [Thread-1 (]: Finished running node model.dbt_code.mart_job_listings
+[0m20:15:21.577010 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m20:15:21.577010 [debug] [MainThread]: Connection 'list_job_ads' was left open.
+[0m20:15:21.577010 [debug] [MainThread]: On list_job_ads: Close
+[0m20:15:21.717878 [debug] [MainThread]: Connection 'list_job_ads_marts' was left open.
+[0m20:15:21.718834 [debug] [MainThread]: On list_job_ads_marts: Close
+[0m20:15:21.821643 [debug] [MainThread]: Connection 'model.dbt_code.mart_job_listings' was left open.
+[0m20:15:21.822639 [debug] [MainThread]: On model.dbt_code.mart_job_listings: Close
+[0m20:15:22.084790 [info ] [MainThread]: 
+[0m20:15:22.085709 [info ] [MainThread]: Finished running 6 table models in 0 hours 0 minutes and 24.50 seconds (24.50s).
+[0m20:15:22.087845 [debug] [MainThread]: Command end result
+[0m20:15:22.115341 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\manifest.json
+[0m20:15:22.118275 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\semantic_manifest.json
+[0m20:15:22.128837 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\11\dbt_code\target\run_results.json
+[0m20:15:22.128837 [info ] [MainThread]: 
+[0m20:15:22.129836 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m20:15:22.130836 [info ] [MainThread]: 
+[0m20:15:22.131848 [info ] [MainThread]: Done. PASS=6 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=6
+[0m20:15:22.133840 [debug] [MainThread]: Command `dbt run` succeeded at 20:15:22.133840 after 27.29 seconds
+[0m20:15:22.134949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F48F05700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F490C32F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F490C2330>]}
+[0m20:15:22.135942 [debug] [MainThread]: Flushing usage events
+[0m20:15:23.213650 [debug] [MainThread]: An error was encountered while trying to flush usage events
