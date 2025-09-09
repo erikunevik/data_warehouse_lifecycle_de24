@@ -5,3 +5,7 @@ SHOW GRANTS TO USER extract_loader2;
 
 SELECT * FROM STAGING.DATA_FIELD_JOB_ADS__APPLICATION_CONTACTS;
 
+select * from STAGING.DATA_FIELD_JOB_ADS;
+
+desc table staging.data_field_job_ads;
+

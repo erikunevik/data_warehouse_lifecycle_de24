@@ -1,0 +1,25 @@
+
+    
+    
+
+with child as (
+    select job_details_key as from_field
+    from job_ads.warehouse.fct_job_ads
+    where job_details_key is not null
+),
+
+parent as (
+    select headline as to_field
+    from job_ads.warehouse.dim_job_details
+)
+
+select
+    from_field
+
+from child
+left join parent
+    on child.from_field = parent.to_field
+
+where parent.to_field is null
+
+
