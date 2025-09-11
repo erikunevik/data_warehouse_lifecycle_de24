@@ -1269,3 +1269,140 @@ Update your versions in packages.yml, then run dbt deps
 [0m18:36:50.140425 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000242C2036510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000242C20346B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000242C3B20080>]}
 [0m18:36:50.141431 [debug] [MainThread]: Flushing usage events
 [0m18:36:51.041341 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:21:18.094055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249DCC271A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249DF8AA930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249DF8A8B30>]}
+
+
+============================== 20:21:18.101249 | 30f28d6c-774e-4ca5-8bb3-168bc3c19e32 ==============================
+[0m20:21:18.101249 [info ] [MainThread]: Running with dbt=1.10.10
+[0m20:21:18.102314 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt ', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'printer_width': '80', 'empty': 'None', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'c:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\10\\dbt_code\\logs', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': 'C:\\Users\\eriku\\.dbt'}
+[0m20:21:18.284793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '30f28d6c-774e-4ca5-8bb3-168bc3c19e32', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249DFFA9E50>]}
+[0m20:21:18.393114 [debug] [MainThread]: Set downloads directory='C:\Users\eriku\AppData\Local\Temp\dbt-downloads-nisums0r'
+[0m20:21:18.393114 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m20:21:19.043041 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m20:21:19.044956 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m20:21:19.677488 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m20:21:19.682489 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m20:21:21.752270 [error] [MainThread]: Encountered an error:
+[WinError 32] Det går inte att komma åt filen eftersom den
+används av en annan process: 'dbt_packages\\dbt-utils-1.2.0'
+[0m20:21:22.261528 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\eriku\AppData\Local\Programs\Python\Python312\Lib\shutil.py", line 847, in move
+    os.rename(src, real_dst)
+PermissionError: [WinError 5] Åtkomst nekad: 'dbt_packages\\dbt-utils-1.2.0' -> 'dbt_packages\\dbt_utils'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt\cli\requires.py", line 178, in wrapper
+    result, success = func(*args, **kwargs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt\cli\requires.py", line 254, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt\cli\requires.py", line 303, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt\cli\main.py", line 461, in deps
+    results = task.run()
+              ^^^^^^^^^^
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt\task\deps.py", line 258, in run
+    package.install(self.project, renderer)
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt\deps\registry.py", line 63, in install
+    self._install(project, renderer)
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt\deps\base.py", line 121, in _install
+    connection_exception_retry(download_untar_fn, 5)
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt_common\utils\connection.py", line 22, in connection_exception_retry
+    return fn()
+           ^^^^
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt\deps\base.py", line 133, in download_and_untar
+    system.untar_package(tar_path, deps_path, package_name)
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt_common\clients\system.py", line 646, in untar_package
+    dbt_common.clients.system.rename(downloaded_path, desired_path, force=True)
+  File "C:\Users\eriku\Desktop\DataenginerSTI2024-2026\Github\data_warehouse_lifecycle_de24\venv\Lib\site-packages\dbt_common\clients\system.py", line 609, in rename
+    shutil.move(from_path, to_path)
+  File "C:\Users\eriku\AppData\Local\Programs\Python\Python312\Lib\shutil.py", line 865, in move
+    rmtree(src)
+  File "C:\Users\eriku\AppData\Local\Programs\Python\Python312\Lib\shutil.py", line 781, in rmtree
+    return _rmtree_unsafe(path, onexc)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\eriku\AppData\Local\Programs\Python\Python312\Lib\shutil.py", line 639, in _rmtree_unsafe
+    onexc(os.rmdir, path, err)
+  File "C:\Users\eriku\AppData\Local\Programs\Python\Python312\Lib\shutil.py", line 637, in _rmtree_unsafe
+    os.rmdir(path)
+PermissionError: [WinError 32] Det går inte att komma åt filen eftersom den
+används av en annan process: 'dbt_packages\\dbt-utils-1.2.0'
+
+[0m20:21:22.263538 [debug] [MainThread]: Command `cli deps` failed at 20:21:22.263538 after 4.33 seconds
+[0m20:21:22.265547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249DF18B530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249DFFAB140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249E12CD190>]}
+[0m20:21:22.265547 [debug] [MainThread]: Flushing usage events
+[0m20:21:24.474396 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:19:17.658470 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A044F94920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A048557B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0485579B0>]}
+
+
+============================== 10:19:17.665450 | 5cf9fbf6-97ac-40cc-a32d-cb4d6e9d1757 ==============================
+[0m10:19:17.665450 [info ] [MainThread]: Running with dbt=1.10.10
+[0m10:19:17.666453 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt ', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'log_cache_events': 'False', 'log_path': 'c:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\10\\dbt_code\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\eriku\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m10:19:17.884420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5cf9fbf6-97ac-40cc-a32d-cb4d6e9d1757', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A048A5BB30>]}
+[0m10:19:44.405271 [debug] [MainThread]: Set downloads directory='C:\Users\eriku\AppData\Local\Temp\dbt-downloads-jbze_zsz'
+[0m10:19:44.405271 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m10:19:44.988608 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m10:19:44.989687 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m10:19:45.187925 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m10:19:45.191933 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m10:19:46.096952 [info ] [MainThread]: Installed from version 1.2.0
+[0m10:19:46.096952 [info ] [MainThread]: Updated version available: 1.3.0
+[0m10:19:46.096952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '5cf9fbf6-97ac-40cc-a32d-cb4d6e9d1757', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A049DE2C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A0486D96D0>]}
+[0m10:19:46.097955 [info ] [MainThread]: 
+[0m10:19:46.097955 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m10:19:46.099955 [debug] [MainThread]: Command `cli deps` succeeded at 10:19:46.099955 after 28.61 seconds
+[0m10:19:46.100971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A047F89BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A047F89B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A045E20A10>]}
+[0m10:19:46.101977 [debug] [MainThread]: Flushing usage events
+[0m10:19:47.369127 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m10:57:29.964996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F71D3BFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F71DA24E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F71918A40>]}
+
+
+============================== 10:57:29.964996 | 974ccfdd-f07a-4b55-b8cc-afbe46697ec2 ==============================
+[0m10:57:29.964996 [info ] [MainThread]: Running with dbt=1.10.10
+[0m10:57:29.964996 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'warn_error': 'None', 'invocation_command': 'dbt test', 'log_format': 'default', 'version_check': 'True', 'introspect': 'True', 'debug': 'False', 'printer_width': '80', 'fail_fast': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'log_path': 'C:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\10\\dbt_code\\logs', 'indirect_selection': 'eager', 'profiles_dir': 'C:\\Users\\eriku\\.dbt', 'static_parser': 'True', 'write_json': 'True'}
+[0m10:57:31.046485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '974ccfdd-f07a-4b55-b8cc-afbe46697ec2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F02ACE0C0>]}
+[0m10:57:31.135571 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '974ccfdd-f07a-4b55-b8cc-afbe46697ec2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F021C8BF0>]}
+[0m10:57:31.140861 [info ] [MainThread]: Registered adapter: snowflake=1.10.0
+[0m10:57:31.381039 [debug] [MainThread]: checksum: 502a0dc23e9052e1ae09f7c44ee219ef7a02dfea7e7d66580d54c304c14d553b, vars: {}, profile: , target: , version: 1.10.10
+[0m10:57:31.540482 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m10:57:31.540482 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m10:57:31.542487 [error] [MainThread]: [[31mERROR[0m]: Found spaces in the name of
+`model.dbt_code.updated_headline_macro (1)`
+[0m10:57:31.543311 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Resource names cannot contain spaces
+[0m10:57:31.543311 [debug] [MainThread]: Command `dbt test` failed at 10:57:31.543311 after 1.84 seconds
+[0m10:57:31.543311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F71918A40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F04847B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019F71A14B00>]}
+[0m10:57:31.543311 [debug] [MainThread]: Flushing usage events
+[0m10:57:32.675260 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:30:54.029572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202BBF8D460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202B9DB6210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202BCD49AF0>]}
+
+
+============================== 16:30:54.037803 | 855a2bc5-7cc6-4502-859a-5562d48fa7f7 ==============================
+[0m16:30:54.037803 [info ] [MainThread]: Running with dbt=1.10.10
+[0m16:30:54.037803 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'profiles_dir': 'C:\\Users\\eriku\\.dbt', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'invocation_command': 'dbt deps', 'log_format': 'default', 'warn_error': 'None', 'introspect': 'True', 'debug': 'False', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'use_experimental_parser': 'False', 'printer_width': '80', 'log_path': 'C:\\Users\\eriku\\Desktop\\DataenginerSTI2024-2026\\Github\\data_warehouse_lifecycle_de24\\10\\dbt_code\\logs', 'indirect_selection': 'eager', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True'}
+[0m16:30:54.289881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '855a2bc5-7cc6-4502-859a-5562d48fa7f7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202BE0F1A90>]}
+[0m16:30:54.405113 [debug] [MainThread]: Set downloads directory='C:\Users\eriku\AppData\Local\Temp\dbt-downloads-mu089aau'
+[0m16:30:54.405113 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m16:30:54.785841 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m16:30:54.788184 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m16:30:55.064788 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m16:30:55.082599 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m16:30:55.677524 [info ] [MainThread]: Installed from version 1.2.0
+[0m16:30:55.677524 [info ] [MainThread]: Updated version available: 1.3.1
+[0m16:30:55.677524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '855a2bc5-7cc6-4502-859a-5562d48fa7f7', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202BE0F3650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202BE0F2810>]}
+[0m16:30:55.677524 [info ] [MainThread]: 
+[0m16:30:55.677524 [info ] [MainThread]: Updates available for packages: ['dbt-labs/dbt_utils']                 
+Update your versions in packages.yml, then run dbt deps
+[0m16:30:55.693468 [debug] [MainThread]: Command `dbt deps` succeeded at 16:30:55.693468 after 1.89 seconds
+[0m16:30:55.693468 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202BCE05EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202B9CA95B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000202BC2E3BC0>]}
+[0m16:30:55.693468 [debug] [MainThread]: Flushing usage events
+[0m16:30:56.529769 [debug] [MainThread]: An error was encountered while trying to flush usage events
